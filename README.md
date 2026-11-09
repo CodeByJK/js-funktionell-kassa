@@ -29,4 +29,4 @@ Visa kvittot på sidan i stället för i konsolen. Bara `main.js` får röra DOM
 
 ## Till torsdagen
 
-Ta med Kassan och pokern ([js--oop-poker](https://github.com/chasacademy-sandra-larsson/js--oop-poker)). Lägg dem på GitHub, så att en kamrat kan granska dem i en pull request.
+Ta med Kassan och Pokern ([js--oop-poker](https://github.com/chasacademy-sandra-larsson/js--oop-poker)). Lägg dem på GitHub, så att en kamrat kan granska dem i en pull request.
