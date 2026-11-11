@@ -28,3 +28,5 @@ import { formatReceipt } from "./receipt.js";
 
 console.log(formatReceipt(lines, products, 'STUDENT', discountCodes, VAT_RATE));
 
+console.log(formatReceipt(lines, products, 'STUDENT', discountCodes, VAT_RATE));
+
