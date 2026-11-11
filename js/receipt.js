@@ -30,7 +30,7 @@ const formatLine = (line, products) => {
 export const formatReceipt = (lines, products, code, codes, vatRate) => {
   const total = subtotal(lines, products);
   const discountedTotal = applyDiscount(total, code, codes);
-  const discountRow = `Med ${code}-rabatt ${applyDiscount(total, code, codes)}`;
+  const discountRow = `Med ${code}-rabatt ${discountedTotal}kr`;
   const rows = lines.map((line) => formatLine(line, products));
   return [...rows, discountRow, `Totalt: ${discountedTotal}kr varav moms ${vatOf(discountedTotal, vatRate).toFixed(2)}kr`].join("\n");
 };
